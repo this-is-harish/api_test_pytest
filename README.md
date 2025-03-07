@@ -3,6 +3,7 @@
 ## Pre-Condition
 - Install Allure
 - Python 3.12
+- Base URL should be added in [.env](.env), if left empty it'll pick https://poetrydb.org/ automatically
 
 ## Requirements
 Before running the tests, make sure you have the necessary dependencies installed. You can do this by running:
