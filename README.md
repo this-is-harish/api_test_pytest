@@ -29,5 +29,7 @@ After running the tests, you can generate an HTML report using the following com
 allure generate allure_results --output=allure_report
 ```
 
-## Notes
-Pushed `allure-report` folder for convenience for user to checkout the allure report. When using this repo in real time project, this folder should be added in  
+## Disclaimer
+The `allure-report` folder has been pushed to this repository for the convenience of users who wish to quickly view the Allure report. However, in a real-time project, this folder should be excluded from version control. 
+
+To do so, ensure that it is added to the  [.gitignore](.gitignore) to prevent the report from being tracked and committed to the repository. Or just un-comment the last line
