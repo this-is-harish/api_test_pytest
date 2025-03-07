@@ -28,3 +28,6 @@ After running the tests, you can generate an HTML report using the following com
 ```bash
 allure generate allure_results --output=allure_report
 ```
+
+## Notes
+Pushed `allure-report` folder for convenience for user to checkout the allure report. When using this repo in real time project, this folder should be added in  
