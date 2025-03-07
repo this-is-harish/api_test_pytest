@@ -33,3 +33,18 @@ allure generate allure_results --output=allure_report
 The `allure-report` folder has been pushed to this repository for the convenience of users who wish to quickly view the Allure report. However, in a real-time project, this folder should be excluded from version control. 
 
 To do so, ensure that it is added to the  [.gitignore](.gitignore) to prevent the report from being tracked and committed to the repository. Or just un-comment the last line
+
+## Results
+| Scenario Name                                                                            | Test Status | Duration  |
+|:-----------------------------------------------------------------------------------------|-------------|-----------|
+| Verify if get all author response returns 200 with valid schema                         | Passed      | 1s 099ms  |
+| Verify if get all title response returns 200 with valid schema                          | Passed      | 716ms     |
+| Verify if the user is able to data based on partial name of author                      | Passed      | 968ms     |
+| Verify if the user is able to data based on partial name of title                       | Passed      | 968ms     |
+| Verify if the user gets 404 when searching for non-existent author                      | Failed      | 321ms     |
+| Verify if the user gets 405 when searching for non-existent title                       | Failed      | 328ms     |
+| Verify if the user is not able to data based on partial name of title with exact match  | Failed      | 1s 166ms  |
+| Verify if the user is not able to data based on partial name of author with exact match | Failed      | 321ms     |
+
+
+
