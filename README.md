@@ -21,6 +21,11 @@ To execute all the test cases, use the following command:
 ```bash
 pytest tests/ -m <tag> --alluredir=allure_results
 ```
+To run test parallely:
+```bash
+pytest -n 4 tests/ --alluredir=allure_results
+```
+
 This will run all tests and store the results in the `allure_results` directory.
 This will filter and run only the test cases marked with `@pytest.mark.<tag>` and store the results in the `allure_results` directory.
 
