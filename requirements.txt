@@ -1,0 +1,7 @@
+pytest-dotenv
+requests
+Faker
+names
+pytest
+allure-pytest
+jsonschema
