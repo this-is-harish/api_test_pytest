@@ -46,5 +46,7 @@ To do so, ensure that it is added to the  [.gitignore](.gitignore) to prevent th
 | Verify if the user is not able to data based on partial name of title with exact match  | Failed      | 1s 166ms  |
 | Verify if the user is not able to data based on partial name of author with exact match | Failed      | 321ms     |
 
-
-
+## Expected Output
+- Status Code
+- JSON schema
+- Retrieved Data is correct (from search filters)
